@@ -93,22 +93,54 @@
             </td>
           </tr> 
 
+          <tr onmouseout="pa_stop()" onmouseover="pa_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='pa_image'>
+                  <img src='images/pa-fig1.png' width="160" height="100%"></div>
+                <img src='images/pa-fig1.png' width="160" height="100%">
+              </div>
+              <script type="text/javascript">
+                function pa_start() {
+                  document.getElementById('pa_image').style.opacity = "1";
+                }
+
+                function pa_stop() {
+                  document.getElementById('pa_image').style.opacity = "0";
+                }
+                pa_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Prototype-Aware Heterogeneous Task for Point Cloud Completion </papertitle>
+              </a>
+              <br>
+              <strong>  Junshu Tang </strong>, Jiachen Xu, Jingyu Gong, Haichuan Song, Yuan Xie, Lizhuang Ma
+              <br>
+              <em> Arxiv </em>, 2022   
+              <br>
+              <a href="https://arxiv.org/abs/2209.01733">arxiv</a> 
+              <p></p>
+             </p>
+            </td>
+          </tr>    
+
           <tr onmouseout="LAKE_stop()" onmouseover="LAKE_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='PITI_image'>
+                <div class="two" id='lake_image'>
                   <img src='images/lake-fig1.png' width="160" height="100%"></div>
                 <img src='images/lake-fig1.png' width="160" height="100%">
               </div>
               <script type="text/javascript">
                 function LAKE_start() {
-                  document.getElementById('PITI_image').style.opacity = "1";
+                  document.getElementById('lake_image').style.opacity = "1";
                 }
 
                 function LAKE_stop() {
-                  document.getElementById('PITI_image').style.opacity = "0";
+                  document.getElementById('lake_image').style.opacity = "0";
                 }
-                PITI_stop()
+                lake_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -153,7 +185,7 @@
               <br>
               <em> TIP </em>, 2021
               <br>
-              <a href="https://arxiv.org/abs/1909.02967">arxiv</a> / 
+              <a href="https://arxiv.org/abs/1909.02967">arxiv</a> 
               <!-- <a href="https://github.com/junshutang/LAKe-Net">code</a>   -->
               <p></p>
              </p>
@@ -161,22 +193,22 @@
           </tr>     
           
 
-            <tr onmouseout="PITI_stop()" onmouseover="PITI_start()">
+            <tr onmouseout="eggan_stop()" onmouseover="eggan_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='PITI_image'>
+                <div class="two" id='eggan_image'>
                   <img src='images/eggan.png' width="160"></div>
                 <img src='images/eggan.png' width="160">
               </div>
               <script type="text/javascript">
-                function PITI_start() {
-                  document.getElementById('PITI_image').style.opacity = "1";
+                function eggan_start() {
+                  document.getElementById('eggan_image').style.opacity = "1";
                 }
 
-                function PITI_stop() {
-                  document.getElementById('PITI_image').style.opacity = "0";
+                function eggan_stop() {
+                  document.getElementById('eggan_image').style.opacity = "0";
                 }
-                PITI_stop()
+                eggan_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
