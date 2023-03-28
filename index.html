@@ -61,7 +61,7 @@
         <!-- <p> (* indicates joint first authors) </p> -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <tr onmouseout="cpa_stop()" onmouseover="cpa_start()">
+            <tr onmouseout="cpa_stop()" onmouseover="bunny_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='bunny_image'><video  width=100% height=100% muted autoplay loop>
@@ -71,14 +71,14 @@
                     <img src='images/bunnycake.png' width="160">
                   </div>
                   <script type="text/javascript">
-                    function cpa_start() {
+                    function bunny_start() {
                       document.getElementById('bunny_image').style.opacity = "1";
                     }
     
-                    function cpa_stop() {
+                    function bunny_stop() {
                       document.getElementById('bunny_image').style.opacity = "0";
                     }
-                    mip360_stop()
+                    bunny_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -115,7 +115,7 @@
                 function cpa_stop() {
                   document.getElementById('cpa_image').style.opacity = "0";
                 }
-                mip360_stop()
+                cpa_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
