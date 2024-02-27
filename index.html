@@ -68,6 +68,23 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 	    <tr onmouseout="vivid_stop()" onmouseover="vivid_start()">
+		<td style="padding:20px;width:25%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='vivid_image'>
+	                  <img src='images/vivid.png' width="160"></div>
+	                <img src='images/vivid.png' width="160">
+	              </div>
+	              <script type="text/javascript">
+	                function vivid_start() {
+	                  document.getElementById('vivid_image').style.opacity = "1";
+	                }
+	
+	                function vivid_stop() {
+	                  document.getElementById('vivid_image').style.opacity = "0";
+	                }
+	                vivid_stop()
+	              </script>
+	            </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <papertitle>Make-It-Vivid: Dressing Your Animatable Biped Cartoon Characters from Text</papertitle>
                   <br>
