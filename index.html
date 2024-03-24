@@ -66,8 +66,43 @@
         <heading>Publications</heading>
         <!-- <p> (* indicates joint first authors) </p> -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-	    <tr onmouseout="vivid_stop()" onmouseover="vivid_start()">
+	     
+		<tr onmouseout="tex_stop()" onmouseover="tex_start()">
+		<td style="padding:20px;width:25%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='tex_image'>
+	                  <img src='images/texdreamer.png' width="160"></div>
+	                <img src='images/texdreamer.png' width="160">
+	              </div>
+	              <script type="text/javascript">
+	                function tex_start() {
+	                  document.getElementById('tex_image').style.opacity = "1";
+	                }
+	
+	                function tex_stop() {
+	                  document.getElementById('tex_image').style.opacity = "0";
+	                }
+	                tex_stop()
+	              </script>
+	            </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>TexDreamer: Towards Zero-Shot High-Fidelity 3D Human Texture Generation</papertitle>
+                  <br>
+		  Yufei Liu, Junwei Zhu, <strong>Junshu Tang</strong>, Shijie Zhang, Jiangning Zhang, Weijian Cao, Chengjie Wang, Yunsheng Wu, Dongjin Huang
+                  <br>
+                                <em>arXiv</em>, 2024
+                  <br>
+		  <a href="https://ggxxii.github.io/texdreamer/">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2403.12906">paper</a>
+                  /
+                  <a href="https://github.com/ggxxii/TexDreamer">code</a>
+                  <p></p>
+                  <p></p>
+                </td>
+              </tr> 
+		
+	   <tr onmouseout="vivid_stop()" onmouseover="vivid_start()">
 		<td style="padding:20px;width:25%;vertical-align:middle">
 	              <div class="one">
 	                <div class="two" id='vivid_image'>
@@ -92,7 +127,11 @@
                   <br>
                                 <em>CVPR</em>, 2024
                   <br>
-                  <a href="http://junshutang.github.io/">Paper Comming Soon</a>
+		  <a href="https://make-it-vivid.github.io/">project page</a>
+                  /
+                  <a href="http://junshutang.github.io/">paper</a>
+                  /
+                  <a href="http://junshutang.github.io/">code</a>
                   <p></p>
                   <p></p>
                 </td>
