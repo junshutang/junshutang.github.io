@@ -55,7 +55,7 @@
                         <li>News (Jul 2023): One paper is accepted to CAD/Graphics 2023.</li>
                         <li>News (Mar 2022): One paper is accepted to CVPR 2022.</li>
                         <li>News (Apr 2021): One paper is accepted to TIP 2021.</li>
-                        <li>News (Feb 2021): One paper is accepted to IEEE Multimidia 2021.</li>
+                        <li>News (Feb 2021): One paper is accepted to IEEE Multimedia 2021.</li>
                         <li>News (Mar 2020): One paper is accepted to ICME 2020 as Oral presentation.</li>
                       </ul>
                       </p>
@@ -68,6 +68,110 @@
         <!-- <p> (* indicates joint first authors) </p> -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+		<tr onmouseout="cloth_stop()" onmouseover="cloth_start()">
+		<td style="padding:20px;width:25%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='cloth_image'><video  width=100% height=100% muted autoplay loop>
+	                <source src="videos/cloth.mp4" type="video/mp4">
+	                Your browser does not support the video tag.
+	                </video></div>
+	                <img src='images/cloth.png' width="160">
+	              </div>
+	              <script type="text/javascript">
+	                function cloth_start() {
+	                  document.getElementById('cloth_image').style.opacity = "1";
+	                }
+	
+	                function cloth_stop() {
+	                  document.getElementById('cloth_image').style.opacity = "0";
+	                }
+	                cloth_stop()
+	              </script>
+	            </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>ClotheDreamer: Text-Guided Garment Generation with 3D Gaussians</papertitle>
+                  <br>
+			Yufei Liu, <strong>Junshu Tang</strong>, Chu Zheng, Shijie Zhang, Jinkun Hao, Junwei Zhu, Dongjin Huang
+                                <em>arXiv</em>, 2024
+                  <br>
+		  <a href="https://ggxxii.github.io/clothedreamer">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2406.16815">paper</a>
+                  /
+                  <a href="https://github.com/ggxxii/clothedreamer">code</a>
+                  <p></p>
+                  <p></p>
+                </td>
+              </tr> 
+		
+		<tr onmouseout="p3d_stop()" onmouseover="p3d_start()">
+		<td style="padding:20px;width:25%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='p3d_image'><video  width=100% height=100% muted autoplay loop>
+	                <source src="videos/p3d.mp4" type="video/mp4">
+	                Your browser does not support the video tag.
+	                </video></div>
+	                <img src='images/p3d.png' width="160">
+	              </div>
+	              <script type="text/javascript">
+	                function p3d_start() {
+	                  document.getElementById('p3d_image').style.opacity = "1";
+	                }
+	
+	                function p3d_stop() {
+	                  document.getElementById('p3d_image').style.opacity = "0";
+	                }
+	                p3d_stop()
+	              </script>
+	            </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Portrait3D: 3D Head Generation from Single In-the-wild Portrait Image</papertitle>
+                  <br>
+			Jinkun Hao, <strong>Junshu Tang</strong>, Jiangning Zhang, Ran Yi, Yijia Hong, Moran Li, Weijian Cao, Yating Wang, Lizhuang Ma
+                                <em>arXiv</em>, 2024
+                  <br>
+		  <a href="https://jinkun-hao.github.io/Portrait3D/">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2406.16710">paper</a>
+                  /
+                  <a href="https://jinkun-hao.github.io/Portrait3D/">code</a>
+                  <p></p>
+                  <p></p>
+                </td>
+              </tr> 
+		
+		
+		<tr onmouseout="fastlgs_stop()" onmouseover="fastlgs_start()">
+		<td style="padding:20px;width:25%;vertical-align:middle">
+	              <div class="one">
+	                <div class="two" id='fastlgs_image'>
+	                  <img src='images/fastlgs_1.png' width="160"></div>
+	                <img src='images/fastlgs_2.png' width="160">
+	              </div>
+	              <script type="text/javascript">
+	                function fastlgs_start() {
+	                  document.getElementById('fastlgs_image').style.opacity = "1";
+	                }
+	
+	                function fastlgs_stop() {
+	                  document.getElementById('fastlgs_image').style.opacity = "0";
+	                }
+	                fastlgs_stop()
+	              </script>
+	            </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>FastLGS: Speeding up Language Embedded Gaussians with Feature Grid Mapping</papertitle>
+                  <br>
+			Yuzhou Ji, He Zhu, <strong>Junshu Tang</strong>, Wuyi Liu, Zhizhong Zhang, Yuan Xie, Lizhuang Ma, Xin Tan
+		  <br>
+                                <em>arXiv</em>, 2024
+                  <br>
+                  <a href="https://arxiv.org/abs/2406.01916">paper</a>
+                  <p></p>
+                  <p></p>
+                </td>
+              </tr> 
+		
 		<tr onmouseout="free_stop()" onmouseover="free_start()">
 		<td style="padding:20px;width:25%;vertical-align:middle">
 	              <div class="one">
@@ -85,7 +189,7 @@
 	                function free_stop() {
 	                  document.getElementById('free_image').style.opacity = "0";
 	                }
-	                tex_stop()
+	                free_stop()
 	              </script>
 	            </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -387,7 +491,7 @@
             <td>
               <heading>Services</heading>
                 <ul>
-                  <li>Reviewers: SIGGRAPH, CVPR, ICCV, ECCV, TPAMI, TIP, AAAI, IJCAI, ACM MM, 3DV, BMVC, TNNLS, ICME.
+                  <li>Reviewers: SIGGRAPH, CVPR, ICCV, ECCV, NeurIPS, TPAMI, TIP, AAAI, IJCAI, ACM MM, 3DV, BMVC, TNNLS, ICME.
                 </ul>
             </td>
           </tr>
