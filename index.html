@@ -22,7 +22,7 @@
               <p style="text-align:center">
                 <name>Junshu Tang (唐俊姝) </name>  <br> <br>
               </p>
-              <p style="font-family:verdana"> I am currently a researcher at Tencent Hunyuan Team. I obtained my PhD degree at the Shanghai Jiao Tong University (<a href="https://www.sjtu.edu.cn/">SJTU</a>), advised by <a href="https://dmcv.sjtu.edu.cn/">Lizhuang Ma</a>. 
+              <p style="font-family:verdana"> I am currently a senior researcher at Tencent Hunyuan Team. I obtained my PhD degree at the Shanghai Jiao Tong University (<a href="https://www.sjtu.edu.cn/">SJTU</a>), advised by <a href="https://dmcv.sjtu.edu.cn/">Lizhuang Ma</a>. 
                 <br> Before that, I was a research intern at Tencent Youtu Lab. In 2023, I was a research intern at OpenMMLab, Shanghai AI Lab, working with <a href="https://zengyh1900.github.io/">Yanhong Zeng</a> and <a href="https://daibo.info/">Bo Dai</a>.
 		<br> From 2021 to 2023, I was a research intern at Visual Computing Group, Microsoft Research Asia (MSRA), working with <a href="https://bo-zhang.me/">Bo Zhang</a> and <a href="http://www.dongchen.pro/">Dong Chen</a>.
                 <br> I'm interested in 2D/3D content generation and animation, mainly focus on face/body animation and 3D generation.  
@@ -70,6 +70,41 @@
         <heading>Publications</heading>
         <!-- <p> (* indicates joint first authors) </p> -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="game_stop()" onmouseover="game_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="one">
+                          <div class="two" id='game_image'><video  width=100% height=100% muted autoplay loop>
+                          <source src="videos/game.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video></div>
+                          <img src='images/game.jpeg' width="160">
+                        </div>
+                        <script type="text/javascript">
+                          function p3d_start() {
+                            document.getElementById('game_image').style.opacity = "1";
+                          }
+          
+                          function p3d_stop() {
+                            document.getElementById('game_image').style.opacity = "0";
+                          }
+                          p3d_stop()
+                        </script>
+                      </td>
+                        <td style="padding:20px;width:75%;vertical-align:middle">
+                          <papertitle>Hunyuan-Game: Industrial-grade Intelligent Game Creation Model</papertitle>
+                          <br>
+                          Hunyuan MultiModal Model Team
+                          <br>
+                                        <em>Technical Report</em>, 2025
+                          <br>
+                          <a href="https://hunyuan.tencent.com/hunyuan-game">project page</a>
+                          /
+                          <a href="https://arxiv.org/abs/2505.14135">paper</a>
+                          <p></p>
+                          <p></p>
+                        </td>
+                      </tr> 
 
 		<tr onmouseout="cloth_stop()" onmouseover="cloth_start()">
 		<td style="padding:20px;width:25%;vertical-align:middle">
