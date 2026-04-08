@@ -73,6 +73,44 @@
         <p> (*equal contribution, ^intern) </p>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+		    <tr onmouseout="gamecraft2_stop()" onmouseover="gamecraft2_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="display: flex; align-items: center; justify-content: center; position: relative;">
+                <div class="two" id='gamecraft2_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/gamecraft2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/gamecraft2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gamecraft2_start() {
+                  document.getElementById('gamecraft2_image').style.opacity = "1";
+                }
+
+                function gamecraft2_stop() {
+                  document.getElementById('gamecraft2_image').style.opacity = "0";
+                }
+                gamecraft2_stop()
+              </script>
+            </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Hunyuan-GameCraft-2: Instruction-following Interactive Game World Model
+                </papertitle>
+                <br>
+                <strong>Junshu Tang*</strong>, Jiacheng Liu^*, Jiaqi Li^*, Longhuang Wu, Haoyu Yang, Penghao Zhao, Siruis Gong, Xiang Yuan, Shuai Shao, Linfeng Zhang, Qinglin Lu
+                <br>
+                              <em>Technical Report</em>, 2025
+                <br>
+                <a href="https://hunyuan-gamecraft-2.github.io/">project page</a>
+                /
+                <a href="https://arxiv.org/abs/2511.23429">paper</a>
+				/
+				<a href="https://hunyuan.tencent.com/game/game-craft">demo</a>
+                <p></p>
+                <p></p>
+              </td>
+            </tr> 
+
           <tr onmouseout="gamecraft_stop()" onmouseover="gamecraft_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one" style="display: flex; align-items: center; justify-content: center; position: relative;">
