@@ -73,6 +73,86 @@
         <p> (*equal contribution, ^intern) </p>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="embodiedworld_stop()" onmouseover="embodiedworld_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="display: flex; align-items: center; justify-content: center; position: relative;">
+                <div class="two" id='embodiedworld_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/embodiedworld.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/embodiedworld.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function embodiedworld_start() {
+                  document.getElementById('embodiedworld_image').style.opacity = "1";
+                }
+
+                function embodiedworld_stop() {
+                  document.getElementById('embodiedworld_image').style.opacity = "0";
+                }
+                embodiedworld_stop()
+              </script>
+            </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models
+                </papertitle>
+                <br>
+                Xiaokun Feng^*, <strong>Junshu Tang*</strong>, Zeyi Lin, Ling-Hao Chen, Shuai Shao, Qinglin Lu, Kaiqi Huang
+                <br>
+                              <em>NeurIPS</em>, 2026
+                <br>
+                <a href="https://xiaokunfeng.github.io/EmbodiedWorld-200K/">project page</a>
+                /
+                <a href="https://arxiv.org/abs/2610.25959">paper</a>
+                /
+                <a href="https://github.com/XiaokunFeng/EmbodiedWorld-200K">code</a>
+                /
+                <a href="https://huggingface.co/datasets/Xiaokunfeng2022/EmbodiedWorld-200K">dataset</a>
+                <p></p>
+                <p></p>
+              </td>
+            </tr> 
+
+          <tr onmouseout="worldreward_stop()" onmouseover="worldreward_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="display: flex; align-items: center; justify-content: center; position: relative;">
+                <div class="two" id='worldreward_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/worldreward.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/worldreward.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function worldreward_start() {
+                  document.getElementById('worldreward_image').style.opacity = "1";
+                }
+
+                function worldreward_stop() {
+                  document.getElementById('worldreward_image').style.opacity = "0";
+                }
+                worldreward_stop()
+              </script>
+            </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>WorldReward: Reward Modeling for Camera-Conditioned World Models
+                </papertitle>
+                <br>
+                Yibin Wang, Zehan Wang, <strong>Junshu Tang</strong>, Zhimin Li, Yujie Zhou, Jiazi Bu, Pengyang Ling, Feng Han, Zhixiong Zhang, Long Xing, Shengyuan Ding, Ziang Li, Cheng Jin, Yuhang Zang, Jiaqi Wang, Tianyu Pang
+                <br>
+                              <em>arXiv</em>, 2026
+                <br>
+                <a href="https://codegoat24.github.io/WorldReward/">project page</a>
+                /
+                <a href="https://arxiv.org/abs/2609.03952">paper</a>
+                /
+                <a href="https://github.com/CodeGoat24/WorldReward">code</a>
+                /
+                <a href="https://huggingface.co/datasets/CodeGoat24/WorldReward-Bench">benchmark</a>
+                <p></p>
+                <p></p>
+              </td>
+            </tr> 
+
 		    <tr onmouseout="gamecraft2_stop()" onmouseover="gamecraft2_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one" style="display: flex; align-items: center; justify-content: center; position: relative;">
